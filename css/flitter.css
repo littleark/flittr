@@ -1,0 +1,153 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+/* mac hide \*/
+html,body{height:100%;width:100%;overflow:hidden;}
+/* end hide */
+html,body {
+	margin:0px;
+	background:#000 url(../img/flittr_on_black.png) no-repeat scroll 40px bottom;
+	font-family: georgia,arial,sans-serif;
+	color:#fff;
+	text-align:center;
+	min-height:468px;/* for good browsers*/
+	min-width:552px;/* for good browsers*/
+	
+}
+.fake_link {
+	color:#ffff00;
+	text-decoration:underline;
+}
+#footer {
+	top:0;
+	bottom:0;
+	left:-265px;
+	position:absolute;
+	width:300px;
+	background-color:#333;
+	font-size:1.5em;
+	-moz-border-radius:0 10% 10% 0;
+	-webkit-border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	
+}
+#footer ul#menu {
+	list-style-image:none;
+	list-style:none;
+	
+	line-height:1.5em;
+	float:right;
+	margin-top:1em;
+	margin-right:5px;
+}
+#footer ul#menu li br {
+	height:1px;
+}
+#footer ul#menu li{
+	line-height:1em;
+	text-align:center;
+}
+#footer ul#menu li#close{
+	display:none;
+	margin-right:0.5em;
+}
+#footer #menu a,
+#footer #menu a:visited {
+	color:#fff;
+	font-style:italic;
+	text-decoration:none;
+	font-weight:bold;
+}
+#footer #menu a:hover {
+	text-decoration:none;
+	color:#ffff00;
+}
+#footer div.section {
+	border:1px dashed #444;
+	margin:1em 35px 1em 0.25em;
+	text-align:left;
+	background-color:#111;
+}
+#footer div.section h3 {
+	margin:0.2em 0.2em 0;
+}
+#footer div.section p {
+	padding:0.2em;
+	font-size:0.75em;
+	line-height:1.1em;
+}
+.section a,
+.section a:visited {
+	color:#fff;
+	text-decoration:underline;
+}
+.section a:hover {
+	color:#ffff00;
+}
+#pic {
+	position:relative;
+	/*border:1px solid #fff;*/
+	background-color:transparent;
+	padding:0px;
+	max-width:80%;
+	margin:0 auto;
+	/*-moz-border-radius:10%;*/
+}
+.intro {
+	font-size:3em;
+	line-height:3em;
+	font-style:italic;
+}
+.descr {
+	font-size:1.1em;
+	line-height:1.2em;
+	font-style:italic;
+	text-align:center;
+}
+.descr a,
+.descr a:visited {
+	color:#fff;
+	text-decoration:underline;
+}
+.descr a:hover {
+	color:#ffff00;
+}
+.twit {
+	color:#ffff00;
+	font-size:1.3em;
+	line-height:1.1em;
+}
+#next {
+	position:absolute;
+	margin:2px 20px;
+	font-size:4em;
+	font-weight:bold;
+	font-style:italic;
+	right:0;
+	z-index:10;
+	top:0px;
+	text-align:right;
+}
+#next a,
+#next a:visited {
+	color:#ddd;
+	text-decoration:none;
+	display:none;
+}
+#next a:hover {
+	color:#fff;
+	text-decoration:underline;
+}
+#next #loader {
+	font-size:0.3em;
+	text-align:right;
+	color:#999;
+	
+}
+#next #timer {
+	font-size:0.5em;
+	text-align:right;
+	color:#999;
+	
+}
