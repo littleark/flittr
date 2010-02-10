@@ -6,6 +6,7 @@ $twitter_request="http://search.twitter.com/search.json?q=the&rpp=50";
 $twitter_json = file_get_contents($twitter_request);
 
 //hmmmmmmmmmm
+//apparently I got it!
 
 //echo "<pre>";
 //var_dump(json_decode($twitter_json,true));
